@@ -9,13 +9,3 @@ require (
 	github.com/unknwon/com v1.0.1
 	gopkg.in/ini.v1 v1.57.0 // indirect
 )
-
-replace (
-	github.com/stonelalala/go-web/conf => ./go/goweb/conf
-	github.com/stonelalala/go-web/middleware => ./go/goweb/middleware
-	github.com/stonelalala/go-web/models => ./go/goweb/models
-	github.com/stonelalala/go-web/pkg/e => ./pkg/e
-	github.com/stonelalala/go-web/pkg/setting => ./pkg/setting
-	github.com/stonelalala/go-web/pkg/util => ./pkg/util
-	github.com/stonelalala/go-web/routers => ./go/goweb/routers
-)
