@@ -3,11 +3,10 @@ module goweb
 go 1.13
 
 require (
+	github.com/Stonelalala/go-web/pkg/setting v0.0.0-00010101000000-000000000000
 	github.com/gin-gonic/gin v1.6.3
-	github.com/go-ini/ini v1.57.0
 	github.com/jinzhu/gorm v1.9.14
 	github.com/unknwon/com v1.0.1
-	gopkg.in/ini.v1 v1.57.0 // indirect
 )
 
 replace (
